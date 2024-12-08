@@ -1,0 +1,32 @@
+baseURL = 'https://sailboatui.com'
+languageCode = 'en-us'
+title = 'Sailboat UI'
+
+[params]
+  description = 'Sailboat UI is a modern UI component library for Tailwind CSS. We can save you a lot of time and provide many components.'
+
+[menu]
+
+[[menu.docs]]
+name = "Getting Started"
+identifier = "getting-started"
+url = "docs/getting-started/"
+weight = 10
+
+[[menu.docs]]
+name = "Components"
+identifier = "components"
+url = "docs/components/"
+weight = 20
+
+[[menu.docs]]
+name = "Forms"
+identifier = "forms"
+url = "docs/forms/"
+weight = 30
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
