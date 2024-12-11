@@ -1,5 +1,6 @@
-const defaultTheme = require("tailwindcss/defaultTheme");
 const colors = require("tailwindcss/colors");
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   content: ["./content/**/*.md", "./assets/js/*.js", "./content/**/*.html", "./content/docs/**/*.html", "./layouts/**/*.html"],
   theme: {
@@ -8,7 +9,7 @@ module.exports = {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        primary: colors.blue,
+        primary: colors.black,
         secondary: colors.slate,
       },
       maxWidth: {
