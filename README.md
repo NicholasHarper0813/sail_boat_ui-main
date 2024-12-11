@@ -1,13 +1,4 @@
 <p align="center">
-  <a href="https://sailboatui.com/#gh-light-mode-only" target="_blank">
-    <img src="./.github/logo-light.svg" width="330" height="70" alt="Sailboat UI">
-  </a>
-  <a href="https://sailboatui.com/#gh-dark-mode-only" target="_blank">
-    <img src="./.github/logo-dark.svg" width="330" height="70" alt="Sailboat UI">
-  </a>
-</p>
-
-<p align="center">
   Sailboat UI is a modern UI component library for Tailwind CSS. Get started with 150+ open-source Tailwind CSS components, and make it easy to build your products.
 </p>
 
