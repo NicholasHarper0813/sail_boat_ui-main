@@ -7,7 +7,7 @@
     "dev": "npm-run-all --parallel dev:*",
     "dev:css": "NODE_ENV=development npx tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/sailboat.css --watch",
     "dev:hugo": "hugo server",
-    "dev:open": "open http://127.0.0.1:1313/",
+    "dev:open": "open http://127.0.0.1:1313/",  //1313port using by nicholas
     "build": "npm-run-all build:*",
     "build:css": "NODE_ENV=production npx tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/sailboat.css --minify",
     "build:hugo": "hugo --minify"
@@ -18,14 +18,14 @@
   },
   "keywords": [
     "sailboatui",
-    "html",
     "css",
+    "html",
     "javascript",
-    "tailwindcss",
     "tailwind components",
     "tailwind elements",
     "tailwind library",
     "tailwind sections",
+    "tailwindcss",
     "tailwind css",
     "tailwind ui"
   ],
